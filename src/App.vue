@@ -112,11 +112,7 @@ export default {
     }
   }
   .b-right{
-<<<<<<< HEAD
-    width: 1110px;
-=======
     width: 1366px;
->>>>>>> d70ee778fd7c64f06e9b59f54ceb5af684def72d
     height: 100%;
     float: right;
     background: #f2efeb;
