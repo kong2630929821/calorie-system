@@ -28,7 +28,7 @@ export default {
     list-style: none;
   }
   .top{
-    width: 1349px;
+    width: 1366px;
     height: 66px;
   .t-left{
     width: 256px;
@@ -42,13 +42,13 @@ export default {
     text-align: center;
   }
   .t-right{
-    width: 1093px;
+    width: 1110px;
     height: 66px;
     background: rgba(255,255,255,0.8);
   }
   }
   .bottom{
-    width: 1349px;
+    width: 1366px;
     height: 590px;
   .b-left{
     width: 256px;
@@ -57,7 +57,7 @@ export default {
     background: #333333;
   }
   .b-right{
-    width: 1093px;
+    width: 1366px;
     height: 100%;
     float: right;
     background: #f2efeb;
