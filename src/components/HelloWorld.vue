@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
+    <button @click="fun">点击</button>
     <ul>
       <li>
         <a
@@ -84,12 +85,21 @@
 </template>
 
 <script>
+  import Event from '../assets/common.js'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  methods:{
+      fun(){
+        Event.$emit('aaa','ssssssss')
+      }
+  },
+  created(){
+
   }
 }
 </script>
